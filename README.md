@@ -2,7 +2,7 @@
 
 ## Options
 
-Set how many writes before showing a warning message.
+Set the number of writes without commiting before the message is shown:
 
 ```vim
 let g:YUNOcommit_after = 20
@@ -24,4 +24,8 @@ vim:
 cd ~/.vim/bundle
 git clone https://github.com/esneider/YUNOcommit.vim.git
 ```
+
+## Credits
+
+GArg :heart:
 
