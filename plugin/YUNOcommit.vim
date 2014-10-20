@@ -24,7 +24,9 @@ function! s:checkCommits()
         echohl None
     endif
 
-    let s:writes = s:writes + 1
+    if s:branch !~# '^fatal'
+        let s:writes = s:writes + 1
+    endif
 endf
 
 augroup YUNOcommit
