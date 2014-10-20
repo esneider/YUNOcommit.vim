@@ -1,4 +1,4 @@
-let s:max_writes = get(g:, 'YUNOcommit_max', 20)
+let s:max_writes = get(g:, 'YUNOcommit_after', 20)
 
 let s:branch = ''
 let s:commit = ''
@@ -19,7 +19,8 @@ function! s:checkCommits()
     if s:writes >= s:max_writes
         let s:writes = 0
         echohl Todo
-        echo "Y U NO commit?????"
+        redraw
+        echo 'Y U NO commit?????'
         echohl None
     endif
 
