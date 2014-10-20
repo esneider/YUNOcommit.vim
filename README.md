@@ -2,7 +2,7 @@
 
 ## Options
 
-Set the number of writes without commiting before the message is shown:
+Set the number of writes without committing before the message is shown:
 
 ```vim
 let g:YUNOcommit_after = 20
@@ -27,5 +27,5 @@ git clone https://github.com/esneider/YUNOcommit.vim.git
 
 ## Credits
 
-GArg :heart:
+GArg :heart: Git
 
