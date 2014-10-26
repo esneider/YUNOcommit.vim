@@ -17,7 +17,6 @@ function! s:checkCommits()
     let s:commit = commit
 
     if s:writes >= s:max_writes
-        let s:writes = 0
         echohl Todo
         redraw
         echo 'Y U NO commit?????'
